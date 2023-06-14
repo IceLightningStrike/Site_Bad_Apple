@@ -3,20 +3,13 @@ html, body {
     background-color: black;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-body {
-    display: table-cell;
-    vertical-align: middle;
 }
 
 
 span {
     position: relative;
     font-family: monospace;
+    height: 100%;
+    width: 100%;
+    top: 50%;
 }
