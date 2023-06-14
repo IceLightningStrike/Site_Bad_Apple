@@ -10,7 +10,7 @@ function start_interval_reading(milliseconds) {
 function FileReading() {
     FrameNumber = (FrameNumber % FramesCount) + 1;
 
-    $.get(`data_${Math.floor(FrameNumber / 1000) + 1}/frame_${FrameNumber}.txt`, function(data) {
+    $.get(`data_${Math.floor((FrameNumber - 1) / 1000) + 1}/frame_${FrameNumber}.txt`, function(data) {
         document.getElementById("demonstration").innerHTML = data;
     });
 }
