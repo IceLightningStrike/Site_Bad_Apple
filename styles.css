@@ -1,0 +1,11 @@
+html, body {
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+span {
+    font-family: monospace;
+    display: inline-flex;
+}
